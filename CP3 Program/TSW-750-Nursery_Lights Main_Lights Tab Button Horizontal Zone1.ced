@@ -1,0 +1,78 @@
+[
+Version=1
+]
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+RelVrs=1
+IntStrVrs=1
+VTProeVer=5.3.19
+]
+
+[
+ObjTp=Symbol
+Name=TSW-750-Nursery_Lights Main_Lights Tab Button Horizontal Zone1.ced
+Hint=Lights Tab Button Horizontal Zone1 (Smart Object ID = 411)
+Code=1
+SmplCName=TSW-750-Nursery_Lights Main_Lights Tab Button Horizontal Zone1.ced
+SMWRev=3.01.26
+Expand=expand_random
+; define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+; define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=1
+]
+
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=1
+Tp=1
+HD=TRUE
+DV=411d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=1
+Name=TSW-750-Nursery_Lights Main_Lights Tab Button Horizontal Zone1.ced
+CedVer=1
+]
+

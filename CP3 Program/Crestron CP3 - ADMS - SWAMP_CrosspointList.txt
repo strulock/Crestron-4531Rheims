@@ -1,0 +1,71 @@
+Crosspoint listing for H:\Dropbox\Personal\AV Files\Crestron\Crestron Projects\Current Program\CP3\Crestron CP3 - ADMS - SWAMP.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+       Crosspoint values are restricted to 0d through 59999d.  60000d and above is reserved for usage by processor firmware.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-9.2 in macro S-3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50001
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50002
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.3 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50003
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.4 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50004
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.5 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50005
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.6 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50006
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.7 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50007
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.8 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50008
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.9 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Aud          50009
+io Zone v1.0.cmc)                                                                                   
+S-9.2 in macro S-3.10 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50010
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.11 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50011
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.12 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50012
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.13 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50013
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.14 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50014
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.15 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50015
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.16 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50016
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.17 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50017
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.18 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50018
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.19 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50019
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.20 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50020
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.21 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50021
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.22 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50022
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.23 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50023
+dio Zone v1.0.cmc)                                                                                  
+S-9.2 in macro S-3.24 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP Au          50024
+dio Zone v1.0.cmc)                                                                                  
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+S-7.1 in macro S-4.1.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP T          50100
+P Room GUI Interface (24 Rooms) v1.1.cmc)                                                           
+S-7.1 in macro S-4.2.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP T          50200
+P Room GUI Interface (24 Rooms) v1.1.cmc)                                                           
+S-7.1 in macro S-4.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP M          50300
+LX-3 Room GUI Interface (24 Rooms) v1.1.cmc)                                                        
+S-7.1 in macro S-4.4.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP T          50400
+P Room GUI Interface (24 Rooms) v1.1.cmc)                                                           
+S-7.1 in macro S-4.5.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP T          50500
+P Room GUI Interface (24 Rooms) v1.1.cmc)                                                           
+S-7.1 in macro S-4.6.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\SWAMP T          50600
+P Room GUI Interface (24 Rooms) v1.1.cmc)                                                           
+

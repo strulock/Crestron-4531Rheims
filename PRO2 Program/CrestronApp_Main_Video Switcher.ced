@@ -1,0 +1,90 @@
+[
+Version=1
+]
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+RelVrs=1
+IntStrVrs=1
+VTProeVer=5.2.21
+]
+
+[
+ObjTp=Symbol
+Name=CrestronApp_Main_Video Switcher.ced
+Hint=Video Switcher (Smart Object ID = 1)
+Code=1
+SmplCName=CrestronApp_Main_Video Switcher.ced
+SMWRev=3.01.26
+Expand=expand_random
+; define the number of inputs, outputs and parameters
+MinVariableInputs=0
+MaxVariableInputs=0
+MinVariableOutputs=0
+MaxVariableOutputs=0
+NumFixedParams=1
+MinVariableInputsList2=7
+MaxVariableInputsList2=7
+MinVariableOutputsList2=7
+MaxVariableOutputsList2=7
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+; define the cues, and signal types  each input, output and parameter.
+InputList2Cue1=Number of visible screens
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Screen 1 Source Selection
+InputList2SigType2=Analog
+OutputList2Cue2=Screen 1 Source Selection
+OutputList2SigType2=Analog
+InputList2Cue3=Screen 2 Source Selection
+InputList2SigType3=Analog
+OutputList2Cue3=Screen 2 Source Selection
+OutputList2SigType3=Analog
+InputList2Cue4=Screen 3 Source Selection
+InputList2SigType4=Analog
+OutputList2Cue4=Screen 3 Source Selection
+OutputList2SigType4=Analog
+InputList2Cue5=Screen 4 Source Selection
+InputList2SigType5=Analog
+OutputList2Cue5=Screen 4 Source Selection
+OutputList2SigType5=Analog
+InputList2Cue6=Screen 5 Source Selection
+InputList2SigType6=Analog
+OutputList2Cue6=Screen 5 Source Selection
+OutputList2SigType6=Analog
+InputList2Cue7=Screen 6 Source Selection
+InputList2SigType7=Analog
+OutputList2Cue7=Screen 6 Source Selection
+OutputList2SigType7=Analog
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=1
+]
+
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=1
+Tp=1
+HD=TRUE
+DV=1d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=1
+Name=CrestronApp_Main_Video Switcher.ced
+CedVer=1
+]
+
