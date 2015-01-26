@@ -1,23 +1,21 @@
 [
-Version=1
-]
-[
 ObjTp=FSgntr
 Sgntr=FlashComposite
-RelVrs=1
+;Increment this version when CED file format changes
+RelVrs=2
 IntStrVrs=1
-VTProeVer=5.3.19
+VTProeVer=5.5.11
 ]
-
 [
 ObjTp=Symbol
 Name=TSW-750-Office_Video_Button List Vertical_1.ced
-Hint=Button List Vertical_1 (Smart Object ID = 4)
+Hint=Button List Vertical_1 (Smart Object ID=4)
 Code=1
+GUID=00CEA028-A78A-47E3-AE08-3454BE1F79A4
 SmplCName=TSW-750-Office_Video_Button List Vertical_1.ced
-SMWRev=3.01.26
+SMWRev=4.02.19
 Expand=expand_random
-; define the number of inputs, outputs and parameters
+;Define the number of inputs, outputs and parameters
 MinVariableInputs=5
 MaxVariableInputs=5
 MinVariableOutputs=5
@@ -31,7 +29,7 @@ MinVariableInputsList3=5
 MaxVariableInputsList3=5
 MinVariableOutputsList3=5
 MaxVariableOutputsList3=5
-; define the cues, and signal types  each input, output and parameter.
+;Define the cues, and signal types  each input, output and parameter.
 InputCue1=[~UNUSED3~]
 InputSigType1=Digital
 OutputCue1=Item 1 Pressed
@@ -100,8 +98,9 @@ ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
 Pp1=1
+CedH=1
+SmartObjId=4d
 ]
-
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
@@ -115,12 +114,12 @@ EncFmt=0
 DVLF=1
 Sgn=0
 ]
-
 ; Smart Objects Definition section
 [
 ObjTp=CED
 H=1
 Name=TSW-750-Office_Video_Button List Vertical_1.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
 CedVer=1
 ]
-
