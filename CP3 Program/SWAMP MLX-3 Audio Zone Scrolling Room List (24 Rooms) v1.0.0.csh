@@ -6,7 +6,7 @@
   Sgntr=CresSPlus
   RelVrs=1
   IntStrVrs=1
-  SPlusVrs=4.02.21
+  SPlusVrs=4.02.26
   CrossCplrVrs=1.3
 [END]
 [BEGIN]

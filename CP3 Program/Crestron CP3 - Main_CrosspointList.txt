@@ -1,0 +1,13 @@
+Crosspoint listing for C:\Users\Scott\Documents\Crestron\Project Checkout\trunk\CP3 Program\Crestron CP3 - Main.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-7.19.10 in macro S-3.3.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\c          0
+hvthstat_sked_v4_0.cmc)                                                                             
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+No symbols of this type found in the program
+

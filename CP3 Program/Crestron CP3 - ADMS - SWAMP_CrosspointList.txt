@@ -1,4 +1,4 @@
-Crosspoint listing for H:\Dropbox\Personal\AV Files\Crestron\Crestron Projects\Current Program\CP3\Crestron CP3 - ADMS - SWAMP.SMW
+Crosspoint listing for C:\Users\Scott\Documents\Crestron\Project Checkout\trunk\CP3 Program\Crestron CP3 - ADMS - SWAMP.SMW
 
 Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
        Crosspoint values are restricted to 0d through 59999d.  60000d and above is reserved for usage by processor firmware.
