@@ -1,0 +1,973 @@
+[
+ObjTp=FSgntr
+Sgntr=SGD
+RelVrs=1
+VTProeVer=5.9.04
+]
+;================================================================================
+[
+ObjTp=Hd
+ProjectFile=TSW-750-Claire_Room.vtp
+VtpGuid=31C73BE0-5655-42C5-94EF-54A5BB3444FD
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_DirecTV Main_DPad.ced
+Hint=DPad (Smart Object ID=2)
+Code=1
+GUID=710556C0-50E1-492F-A896-EC2684C09646
+SmplCName=TSW-750-Claire_Room_DirecTV Main_DPad.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Right
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Down
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Left
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=<font size ="16" color="/#a3a3a3">Enter</font>
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=1
+CedH=1
+SmartObjId=2d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=1
+Tp=1
+HD=TRUE
+DV=2d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=1
+Name=TSW-750-Claire_Room_DirecTV Main_DPad.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_DirecTV Main_Tab Button Horizontal.ced
+Hint=Tab Button Horizontal (Smart Object ID=3)
+Code=2
+GUID=38ADB443-8960-4EC7-A3FF-826ACD061D49
+SmplCName=TSW-750-Claire_Room_DirecTV Main_Tab Button Horizontal.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=2
+CedH=2
+SmartObjId=3d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=2
+Tp=1
+HD=TRUE
+DV=3d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=2
+Name=TSW-750-Claire_Room_DirecTV Main_Tab Button Horizontal.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_DirecTV Keypad_Simple Keypad.ced
+Hint=Simple Keypad (Smart Object ID=1)
+Code=3
+GUID=C185D576-EF92-4C9C-BA91-6C3A542D8A9B
+SmplCName=TSW-750-Claire_Room_DirecTV Keypad_Simple Keypad.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Dash
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Enter
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=3
+CedH=3
+SmartObjId=1d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=3
+Tp=1
+HD=TRUE
+DV=1d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=3
+Name=TSW-750-Claire_Room_DirecTV Keypad_Simple Keypad.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_DirecTV Presets_Button List Vertical.ced
+Hint=Button List Vertical (Smart Object ID=4)
+Code=4
+GUID=CACEF21D-B60D-4FBD-AE28-68956511BCCA
+SmplCName=TSW-750-Claire_Room_DirecTV Presets_Button List Vertical.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=24
+MaxVariableInputs=24
+MinVariableOutputs=24
+MaxVariableOutputs=24
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=24
+MaxVariableInputsList3=24
+MinVariableOutputsList3=24
+MaxVariableOutputsList3=24
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=Item 10 Pressed
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Item 11 Pressed
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Item 12 Pressed
+OutputSigType12=Digital
+InputCue13=[~UNUSED3~]
+InputSigType13=Digital
+OutputCue13=Item 13 Pressed
+OutputSigType13=Digital
+InputCue14=[~UNUSED3~]
+InputSigType14=Digital
+OutputCue14=Item 14 Pressed
+OutputSigType14=Digital
+InputCue15=[~UNUSED3~]
+InputSigType15=Digital
+OutputCue15=Item 15 Pressed
+OutputSigType15=Digital
+InputCue16=[~UNUSED3~]
+InputSigType16=Digital
+OutputCue16=Item 16 Pressed
+OutputSigType16=Digital
+InputCue17=[~UNUSED3~]
+InputSigType17=Digital
+OutputCue17=Item 17 Pressed
+OutputSigType17=Digital
+InputCue18=[~UNUSED3~]
+InputSigType18=Digital
+OutputCue18=Item 18 Pressed
+OutputSigType18=Digital
+InputCue19=[~UNUSED3~]
+InputSigType19=Digital
+OutputCue19=Item 19 Pressed
+OutputSigType19=Digital
+InputCue20=[~UNUSED3~]
+InputSigType20=Digital
+OutputCue20=Item 20 Pressed
+OutputSigType20=Digital
+InputCue21=[~UNUSED3~]
+InputSigType21=Digital
+OutputCue21=Item 21 Pressed
+OutputSigType21=Digital
+InputCue22=[~UNUSED3~]
+InputSigType22=Digital
+OutputCue22=Item 22 Pressed
+OutputSigType22=Digital
+InputCue23=[~UNUSED3~]
+InputSigType23=Digital
+OutputCue23=Item 23 Pressed
+OutputSigType23=Digital
+InputCue24=[~UNUSED3~]
+InputSigType24=Digital
+OutputCue24=Item 24 Pressed
+OutputSigType24=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+InputList3Cue10=Item 10 Text
+InputList3SigType10=Serial
+OutputList3Cue10=[~UNUSED3~]
+OutputList3SigType10=Serial
+InputList3Cue11=Item 11 Text
+InputList3SigType11=Serial
+OutputList3Cue11=[~UNUSED3~]
+OutputList3SigType11=Serial
+InputList3Cue12=Item 12 Text
+InputList3SigType12=Serial
+OutputList3Cue12=[~UNUSED3~]
+OutputList3SigType12=Serial
+InputList3Cue13=Item 13 Text
+InputList3SigType13=Serial
+OutputList3Cue13=[~UNUSED3~]
+OutputList3SigType13=Serial
+InputList3Cue14=Item 14 Text
+InputList3SigType14=Serial
+OutputList3Cue14=[~UNUSED3~]
+OutputList3SigType14=Serial
+InputList3Cue15=Item 15 Text
+InputList3SigType15=Serial
+OutputList3Cue15=[~UNUSED3~]
+OutputList3SigType15=Serial
+InputList3Cue16=Item 16 Text
+InputList3SigType16=Serial
+OutputList3Cue16=[~UNUSED3~]
+OutputList3SigType16=Serial
+InputList3Cue17=Item 17 Text
+InputList3SigType17=Serial
+OutputList3Cue17=[~UNUSED3~]
+OutputList3SigType17=Serial
+InputList3Cue18=Item 18 Text
+InputList3SigType18=Serial
+OutputList3Cue18=[~UNUSED3~]
+OutputList3SigType18=Serial
+InputList3Cue19=Item 19 Text
+InputList3SigType19=Serial
+OutputList3Cue19=[~UNUSED3~]
+OutputList3SigType19=Serial
+InputList3Cue20=Item 20 Text
+InputList3SigType20=Serial
+OutputList3Cue20=[~UNUSED3~]
+OutputList3SigType20=Serial
+InputList3Cue21=Item 21 Text
+InputList3SigType21=Serial
+OutputList3Cue21=[~UNUSED3~]
+OutputList3SigType21=Serial
+InputList3Cue22=Item 22 Text
+InputList3SigType22=Serial
+OutputList3Cue22=[~UNUSED3~]
+OutputList3SigType22=Serial
+InputList3Cue23=Item 23 Text
+InputList3SigType23=Serial
+OutputList3Cue23=[~UNUSED3~]
+OutputList3SigType23=Serial
+InputList3Cue24=Item 24 Text
+InputList3SigType24=Serial
+OutputList3Cue24=[~UNUSED3~]
+OutputList3SigType24=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=4
+CedH=4
+SmartObjId=4d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=4
+Tp=1
+HD=TRUE
+DV=4d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=4
+Name=TSW-750-Claire_Room_DirecTV Presets_Button List Vertical.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_Device Dropdown_Button List Vertical.ced
+Hint=Button List Vertical (Smart Object ID=5)
+Code=5
+GUID=BE0273DE-A686-41B1-8837-A71930FD37ED
+SmplCName=TSW-750-Claire_Room_Device Dropdown_Button List Vertical.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=6
+MaxVariableInputsList3=6
+MinVariableOutputsList3=6
+MaxVariableOutputsList3=6
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=5
+CedH=5
+SmartObjId=5d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=5
+Tp=1
+HD=TRUE
+DV=5d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=5
+Name=TSW-750-Claire_Room_Device Dropdown_Button List Vertical.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_ADMS Main_DPad.ced
+Hint=DPad (Smart Object ID=6)
+Code=6
+GUID=690E0E6A-2C6C-4120-A4D5-66923BBD7584
+SmplCName=TSW-750-Claire_Room_ADMS Main_DPad.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=OK
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=6
+CedH=6
+SmartObjId=6d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=6
+Tp=1
+HD=TRUE
+DV=6d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=6
+Name=TSW-750-Claire_Room_ADMS Main_DPad.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_Media Player Main_Media Player Application.ced
+Hint=Media Player Application (Smart Object ID=7)
+Code=7
+GUID=FF045F62-1A67-4779-B270-724F09F6989B
+SmplCName=TSW-750-Claire_Room_Media Player Main_Media Player Application.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10040
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=3
+MaxVariableInputs=3
+MinVariableOutputs=3
+MaxVariableOutputs=3
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=3
+MaxVariableInputsList3=3
+MinVariableOutputsList3=3
+MaxVariableOutputsList3=3
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=Refresh
+InputSigType1=Digital
+OutputCue1=[~UNUSED3~]
+OutputSigType1=Digital
+InputCue2=Offline
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=Use_Message
+InputSigType3=Digital
+OutputCue3=[~UNUSED3~]
+OutputSigType3=Digital
+InputList3Cue1=CRPC_FB
+InputList3SigType1=Serial
+OutputList3Cue1=CRPC
+OutputList3SigType1=Serial
+InputList3Cue2=Player_Name
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Message_FB
+InputList3SigType3=Serial
+OutputList3Cue3=Message
+OutputList3SigType3=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=7
+CedH=7
+SmartObjId=7d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=7
+Tp=1
+HD=TRUE
+DV=7d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=7
+Name=TSW-750-Claire_Room_Media Player Main_Media Player Application.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+CedMod=Media Server Object Router v3.0.cmc
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room_Media Player Dropdown_Button List Vertical.ced
+Hint=Button List Vertical (Smart Object ID=8)
+Code=8
+GUID=E4F76B01-4620-4D8B-851E-FEBF3175475F
+SmplCName=TSW-750-Claire_Room_Media Player Dropdown_Button List Vertical.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=8
+MaxVariableInputsList3=8
+MinVariableOutputsList3=8
+MaxVariableOutputsList3=8
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=8
+CedH=8
+SmartObjId=8d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=8
+Tp=1
+HD=TRUE
+DV=8d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=8
+Name=TSW-750-Claire_Room_Media Player Dropdown_Button List Vertical.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

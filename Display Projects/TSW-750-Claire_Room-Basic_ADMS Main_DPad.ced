@@ -1,0 +1,81 @@
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+;Increment this version when CED file format changes
+RelVrs=2
+IntStrVrs=1
+VTProeVer=5.5.11
+]
+[
+ObjTp=Symbol
+Name=TSW-750-Claire_Room-Basic_ADMS Main_DPad.ced
+Hint=DPad (Smart Object ID=6)
+Code=6
+GUID=690E0E6A-2C6C-4120-A4D5-66923BBD7584
+SmplCName=TSW-750-Claire_Room-Basic_ADMS Main_DPad.ced
+SMWRev=4.02.19
+Expand=expand_random
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=OK
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=6
+CedH=6
+SmartObjId=6d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=6
+Tp=1
+HD=TRUE
+DV=6d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=6
+Name=TSW-750-Claire_Room-Basic_ADMS Main_DPad.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
